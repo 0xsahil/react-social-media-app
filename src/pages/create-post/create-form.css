@@ -1,0 +1,33 @@
+.form{
+    background-color: black;
+    padding: 2rem 4rem;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+.form input , textarea{
+    font-size: 1.8rem;
+    width: 40%;
+    margin: 0 auto;
+    height: 3rem;
+    border-radius: 1rem;
+    padding: 0.7rem 1rem ;
+}
+textarea{
+    height: auto;
+}
+.form button{
+    text-align: center;
+    background-color: red;
+    padding: 1rem 0.5rem;
+    font-size: 2rem;
+    width: 30%;
+    border-radius: 1.5rem;
+}
+.form button:hover{
+    background-color: rgb(104, 7, 7);
+}
+.form p{
+    font-size: 1.2rem;
+}

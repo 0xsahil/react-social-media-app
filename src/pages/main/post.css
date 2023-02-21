@@ -1,0 +1,35 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    padding: 2rem 3rem;
+    background-color: rgb(9, 16, 40);
+    width: 70%;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    word-wrap: break-word;
+    align-items: flex-start;
+    text-align: left;
+}
+.title{
+    color: rgb(243, 243, 246);
+    text-transform: capitalize;
+}
+.description{
+     color: aqua;
+}
+.footer{
+    color: rgb(168, 255, 226);
+    align-self: flex-end;
+    margin-right: 2rem;
+}
+.footer button{
+    background: transparent;
+    border: rgb(23, 38, 99) solid;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 1.2rem;
+}
+.footer button:hover{
+    background: rgb(15, 49, 188);
+}

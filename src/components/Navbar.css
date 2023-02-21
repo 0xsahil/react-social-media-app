@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: rgb(1, 1, 1);
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    /* border-radius: 1rem; */
+}
+.text-links{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+.text-links:hover{
+    color: red;
+}
+.item-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item-2 p{
+    color: rgb(206, 20, 20);
+    margin-right: 1rem;
+    text-transform: capitalize;
+}
+.item-2 img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+.item-2 button{
+    border: solid rgb(54, 5, 100);
+    color: whitesmoke;
+    border-radius: 1rem;
+    background: none;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+}
+.item-2 button:hover{
+    background: rgb(2, 2, 138);
+    color: rgb(195, 156, 156);
+}
